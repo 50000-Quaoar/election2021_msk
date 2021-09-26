@@ -1,0 +1,8 @@
+{
+    "minutes_in_bin"        : 10,
+    "minutes_per_axis_tick" : 120,
+    "candidates_to_plot"    : [217404809, 182884641, 149646701, 136749451, 153770437, 153878280],
+    "percentage"            : false,
+    "integrate"             : false
+}
+
