@@ -104,7 +104,9 @@ if plot_config["integrate"]:
     for b in range(1, RESULT_BINS):
         for i in range(len(candidate_list)):
             binned_results[i][b] += binned_results[i][b-1]
-
+    for i in range(len(candidate_list)):
+        print("Всего голосов за", vote_options[str(candidate_list[i])], ":", binned_results[i][-1])
+        
 # Calculate percentage if required
 if plot_config["percentage"]:
     for b in range(RESULT_BINS):
